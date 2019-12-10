@@ -1,1 +1,1 @@
-# KNN-Algo
+# KNN-Algorithm

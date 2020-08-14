@@ -13,20 +13,25 @@ Step 2: Compare the similarity of a given unrated object with all the classified
 Step 3: Take the most similar objects and call them neighbors, who each have a “label.”<br>
 Step 4: Determine the "label" of the unrated object.<br>
 
-# Example
+# Example 1
+Let’s consider the simplest case of using a KNN model as a classifier. Let’s say you have data points that fall into one of three classes. A two dimensional example may look like this:
+
+<img src="knn.png"></img>
+
+# Example 2
 For example, movie rating:
-You have a bunch of movies that have been classified as “thumbs up” or “thumbs down,”.
-You want to classify the movie "Toy Story"
-&nbsp;Step 1: Define the attributes of "Toy Story"
-&nbsp;&nbsp;length of movie
-&nbsp;&nbsp;genre
-&nbsp;&nbsp;number of sex scenes
-&nbsp;&nbsp;number of Oscar-winning actors in it
-&nbsp;&nbsp;budget
-&nbsp;Step 2: find the majority rating of other movies with similar attributes
-&nbsp;Step 3: Assign rating to "Toy Story"<br><br>
+You have a bunch of movies that have been classified as “thumbs up” or “thumbs down,”.<br>
+You want to classify the movie "Toy Story"<br>
+Step 1: Define the attributes of "Toy Story"<br>
+length of movie<br>
+genre<br>
+number of Oscar-winning actors in it<br>
+budget<br><br>
+Step 2: find the majority rating of other movies with similar attributes<br>
+Step 3: Assign rating to "Toy Story"<br><br>
 If there is a majority rating, then the rating of "Toy Story" should have the same rating.
 If there’s a tie, then the rating of "Toy Story" is randomlyassigned.
 
 # References
 https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
+https://towardsdatascience.com/the-basics-knn-for-classification-and-regression-c1e8a6c955

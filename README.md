@@ -4,8 +4,8 @@
  This algorithm is dependent on distance for classification, normalizing the training data can improve its accuracy dramatically.
 
 <li>It is used when: </li>
-<li>you have a bunch of objects that have been classified, and</li>
-<li>you want a way to automatically clasify similar objects that haven’t gotten classified.</li>
+    - You have a bunch of objects that have been classified, and</li>
+    - You want a way to automatically clasify similar objects that haven’t gotten classified.</li><br>
 
 <li>Procedure of automation</li>
 Step 1: Define similarity of two objects
